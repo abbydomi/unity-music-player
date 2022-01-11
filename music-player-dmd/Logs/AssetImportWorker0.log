@@ -1,0 +1,241 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/dunny/Documents/Unity projects/music-player/unity-music-player/music-player-dmd
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51627
+Successfully changed project path to: /Users/dunny/Documents/Unity projects/music-player/unity-music-player/music-player-dmd
+/Users/dunny/Documents/Unity projects/music-player/unity-music-player/music-player-dmd
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/dunny/Documents/Unity projects/music-player/unity-music-player/music-player-dmd/Assets
+GfxDevice: creating device client; threaded=0
+2022-01-11 00:44:45.950 Unity[30681:1267924] (null) preferred device: Apple M1 (high power)
+2022-01-11 00:44:45.950 Unity[30681:1267924] Metal devices available: 1
+2022-01-11 00:44:45.950 Unity[30681:1267924] 0: Apple M1 (high power)
+2022-01-11 00:44:45.950 Unity[30681:1267924] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56681
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002393 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 26.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.736 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003321 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.997 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 134.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1825.
+Total: 1.409375 ms (FindLiveObjects: 0.093791 ms CreateObjectMapping: 0.026417 ms MarkObjects: 1.197875 ms  DeleteObjects: 0.090459 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Models/turntable.obj
+  artifactKey: Guid(3c77823a284f149108082f4dfa4b104a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable.obj using Guid(3c77823a284f149108082f4dfa4b104a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15da600dcc057e9c03aebcc38977a848') in 0.863059 seconds 
+  Import took 0.864984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Models
+  artifactKey: Guid(57a0d402714c44a349ac53c6e5390fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(57a0d402714c44a349ac53c6e5390fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7125c6c63ef250400924d0ded0f632f9') in 0.000455 seconds 
+  Import took 0.001700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 407.132537 seconds.
+  path: Assets/Models/turntable
+  artifactKey: Guid(82b138643e41546ef8bf9487fee27bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable using Guid(82b138643e41546ef8bf9487fee27bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdcf2b1a9d45bfae3bbeefba3ad267f') in 0.000792 seconds 
+  Import took 0.002775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.346929 seconds.
+  path: Assets/Models/turntable/Material-color.png
+  artifactKey: Guid(f282114b14e4e4c3faf3320d2fd58bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material-color.png using Guid(f282114b14e4e4c3faf3320d2fd58bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7770a5c2eeb4ff4dbdcee0bff56a855') in 0.566433 seconds 
+  Import took 0.569111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Models/turntable/Material.002-metallic.png
+  artifactKey: Guid(34077d72d132a4c9bb2c7165f0f469c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material.002-metallic.png using Guid(34077d72d132a4c9bb2c7165f0f469c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467fea265023538c45f4c755d867c23c') in 0.007272 seconds 
+  Import took 0.009080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Models/turntable/Material.001-color.png
+  artifactKey: Guid(522b547b430d64ed8b68f6aea201bbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material.001-color.png using Guid(522b547b430d64ed8b68f6aea201bbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df53ecb3bc15281001ba210198907f3e') in 0.005229 seconds 
+  Import took 0.007049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Models/turntable/Material.003-roughness.png
+  artifactKey: Guid(bb726a3aff5ee460492a37b1aefcbbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material.003-roughness.png using Guid(bb726a3aff5ee460492a37b1aefcbbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c838fa40db63e5e5c46f5ac7eb7fad') in 0.005185 seconds 
+  Import took 0.006994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Models/turntable/None-roughness.png
+  artifactKey: Guid(02ab3c6af7ec8473e92484bd0a1685e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/None-roughness.png using Guid(02ab3c6af7ec8473e92484bd0a1685e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6422e0f08c34fb6d079df60268ef7b84') in 0.005109 seconds 
+  Import took 0.006712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Models/turntable/Material.001-metallic.png
+  artifactKey: Guid(8c942d6317c96437eb5ad7605a84484c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material.001-metallic.png using Guid(8c942d6317c96437eb5ad7605a84484c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0615423a4be8de9d91dda6d65387f4c7') in 0.005514 seconds 
+  Import took 0.007375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Models/turntable/Material.002-color.png
+  artifactKey: Guid(24397ddb1b8c947108067e245b86cf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material.002-color.png using Guid(24397ddb1b8c947108067e245b86cf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c8801a192580bd1cbe76f282b6797c') in 0.005033 seconds 
+  Import took 0.006770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Models/turntable/Material.002-roughness.png
+  artifactKey: Guid(38b126f242c334c17830c63fd991d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material.002-roughness.png using Guid(38b126f242c334c17830c63fd991d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31808c06c53f1416ca76448fffd3b47') in 0.005022 seconds 
+  Import took 0.006688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Models/turntable/Material-roughness.png
+  artifactKey: Guid(3961d5f2b4199482188d5dd57044b5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material-roughness.png using Guid(3961d5f2b4199482188d5dd57044b5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552e553f3d813d51a4f23cfdc51080ee') in 0.004897 seconds 
+  Import took 0.006464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models/turntable/Material.001-roughness.png
+  artifactKey: Guid(3e6b6ea185e79475c8312e5a5d28e205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material.001-roughness.png using Guid(3e6b6ea185e79475c8312e5a5d28e205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a8a68c05f00b937ae910437814f0bf') in 0.004794 seconds 
+  Import took 0.006277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Models/turntable/Material.003-metallic.png
+  artifactKey: Guid(8685c151a80644a50aebfb4faa626f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material.003-metallic.png using Guid(8685c151a80644a50aebfb4faa626f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee74bde70886e469059a9705a9b76499') in 0.005063 seconds 
+  Import took 0.006565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Models/turntable/turntable.obj
+  artifactKey: Guid(762ef5202f87f4da2a212a2c30a57c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/turntable.obj using Guid(762ef5202f87f4da2a212a2c30a57c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e477491d71ea0c32e495811abdc16c') in 0.144559 seconds 
+  Import took 0.146443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Models/turntable/Material.003-color.png
+  artifactKey: Guid(72fe7905fa4664ad2928e2452de4ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material.003-color.png using Guid(72fe7905fa4664ad2928e2452de4ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebdc616c06f90b3f1e516d08b924ce7') in 0.005534 seconds 
+  Import took 0.007039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Models/turntable/Material-metallic.png
+  artifactKey: Guid(9c89c8bb32a174883be0b3c04f4b1dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material-metallic.png using Guid(9c89c8bb32a174883be0b3c04f4b1dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b481ef0f3f3648cb03705a917360ed8') in 0.005094 seconds 
+  Import took 0.006804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Models/turntable/None-metallic.png
+  artifactKey: Guid(b28e71b618a7448c09d48440bcac9b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/None-metallic.png using Guid(b28e71b618a7448c09d48440bcac9b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd1ad74918b11594e9011820c47f316') in 0.004810 seconds 
+  Import took 0.006351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models/turntable/None-color.png
+  artifactKey: Guid(4415a7b027bf7480ca6f05e2123b6270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/None-color.png using Guid(4415a7b027bf7480ca6f05e2123b6270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed31903e3066cad2b8a49b7f9e72113') in 0.004916 seconds 
+  Import took 0.006389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023498 seconds.
+  path: Assets/Models/turntable/Material-metallic.png
+  artifactKey: Guid(9c89c8bb32a174883be0b3c04f4b1dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/turntable/Material-metallic.png using Guid(9c89c8bb32a174883be0b3c04f4b1dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b481ef0f3f3648cb03705a917360ed8') in 0.005459 seconds 
+  Import took 0.007449 seconds .
+
