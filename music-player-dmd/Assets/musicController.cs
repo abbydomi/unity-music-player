@@ -21,6 +21,9 @@ public class musicController : MonoBehaviour
     public float speedMultiplier;
     public Sprite playSprite;
     public Sprite pauseSprite;
+    public float globalVolume;
+
+    public Image volume;
 
     [HideInInspector]
     public AudioSource selfsource;
@@ -40,7 +43,15 @@ public class musicController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (selfsource.volume <= 0)
+        {
+            volume.color = Color.gray;
+        }
+        else
+        {
+            volume.color = Color.white;
+        }
+        //selfsource.volume = globalVolume;
         switch (currentsong)
         {
             case -1:
@@ -83,11 +94,15 @@ public class musicController : MonoBehaviour
                 speedText.text = "x0.5";
                 break;
         }
-        if (isPlaying)
+        if (isPlaying && currentsong != -1)
         {
             discAnimators[currentsong].speed = speedMultiplier;
         }
         selfsource.pitch = speedMultiplier;
+        if (isPlaying && selfsource.isPlaying == false)
+        {
+            nextSong();
+        }
     }
     public void PlaySong(int s)
     {
