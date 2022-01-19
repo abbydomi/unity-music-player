@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{4C8F8B92-E343-A0B9-C0DF-F2B365568AB0}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/musicController.cs">
     <Files>
-      <File FileName="Assets/musicController.cs" Line="53" Column="10" />
+      <File FileName="Assets/musicController.cs" Line="61" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="music-player-dmd" expanded="True">
-            <Node name="Assets" expanded="True" selected="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="musicController.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -15,7 +17,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="24ddf21d-2dd7-4f0e-85d1-640a6627fa12" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c8e3ab76-4b9d-4fb8-8405-0230088977b5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
